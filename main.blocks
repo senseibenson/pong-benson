@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="klfXmICxVOhGh^Jxu`UK">leftPaddle</variable></variables><block type="pxt-on-start" id="hiyXjZOG(UByg6Md8APW" x="20" y="20"><statement name="HANDLER"><block type="function_call" id="jf*-H(WCZX.q]J+%0rD~"><mutation name="createLeftPaddle" functionid="$MHNzzY-YH@MBntbA[ar"/></block></statement></block><block type="function_definition" id="vyV)lWlgyQSyGM8!cW-f" x="333" y="20"><mutation name="createLeftPaddle" functionid="$MHNzzY-YH@MBntbA[ar"/><field name="function_name">createLeftPaddle</field><statement name="STACK"><block type="variables_set" id="uL?:Gzyva]7pi)3`jiZK"><field name="VAR" id="klfXmICxVOhGh^Jxu`UK">leftPaddle</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="gqA5/A]WKl}7j+05t|k6"><value name="img"><shadow type="screen_image_picker" id="%mNKtW$svBv;Pw4N2k1E"><field name="img">img`
+1 1 1 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 2 2 1 
+1 1 1 1 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value></block></value></block></statement></block></xml>
