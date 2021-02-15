@@ -26,12 +26,13 @@ function createBall () {
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Ball, function (sprite, otherSprite) {
     otherSprite.vx = -1 * otherSprite.vx
     if (sprite == leftPaddle) {
-        otherSprite.left = sprite.right
         info.changeScoreBy(1)
+        otherSprite.left = sprite.right
     } else {
-    	
+        info.player2.changeScoreBy(1)	
+        otherSprite.right = sprite.left
     }
-    info.player2.changeScoreBy(1)
+    scene.cameraShake(4, 500)
 })
 function createRightPaddle () {
     rightPaddle = sprites.create(img`
